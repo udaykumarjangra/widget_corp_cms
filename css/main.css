@@ -1,0 +1,118 @@
+        *{
+        top:0;
+        left:0;
+        padding:0;
+        background-color:#EFE4B6;
+        font-family:Helvetica;
+        }
+        .header
+        {
+            background-color:#173D62;
+            width:100vw;
+            height:70px;
+            z-index:999;
+            position:fixed;
+        }
+        .logo{
+            width:100%;
+            background-color:#173D62;
+            display:flex;
+            align-items:center;
+            padding-left: 70px;
+            height:70px;
+            margin:0;
+            color:#C9E5F3;
+            font-size:30px;
+        }
+        .container{
+            display:table;
+            width:100%;
+            height:100%;
+        }
+        .row{
+            display:table-row;
+            width:100%;
+            height:100%;
+        }
+        .sidemenu{
+            height: 100%;
+            width: 20%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #871016;
+            overflow-x: hidden;
+            padding-top: 110px;
+            font-size:20px;
+        }
+        .sidemenu ul li{
+            background:none;
+            width:100%;
+            text-align:left;
+            color:#C9E5F3;
+            
+        }
+        .sidemenu ul li a{
+            background:none;
+            text-decoration:none;
+            color:#C9E5F3;
+        }
+
+        .sidemenu .subject{
+            padding-left: 60px;
+            display: block;
+            border: none;
+            background: none;
+            width:75%;
+            outline:none;
+            color:#C9E5F3;
+            cursor:pointer;
+            font-size:18px;
+            padding-bottom:10px;
+        }
+        
+        .subject-container {
+            display: none;
+            background:none;
+            margin-top:0;
+            color:#C9E5F3;
+            padding-left:100px;
+            list-style-type:disc;
+        }
+        .subject-container-p {
+            background:none;
+            margin-top:0;
+            color:#C9E5F3;
+            padding-left:100px;
+            list-style-type:disc;
+        }
+        .main{
+            padding-left:23%;
+            background-color:#EFE4B6;
+            width:74%;
+            height:100%;
+            padding-top:70px;
+        }
+        .main h1{
+            color:#871016;
+        }
+        a{
+            color:#871016;
+            margin-right: 2px;
+        }
+        form input{
+            background-color: white;
+        }
+        .submit{
+            padding: 10px 20px;
+        }
+        .main table th, .main table td{
+            width:200px;
+            text-align: center;
+        }
+        .subject a{
+            background-color: #871016;
+            color:#C9E5F3;
+            text-decoration: none;
+        }
